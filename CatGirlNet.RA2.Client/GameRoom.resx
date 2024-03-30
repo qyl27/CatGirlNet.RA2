@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ListBoxMaps.Parent" xml:space="preserve">
+    <value>GroupBoxMapSelection</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerId.Name" xml:space="preserve">
+    <value>LabelPlayerId</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerName.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelTeam.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ListBoxMaps.Name" xml:space="preserve">
+    <value>ListBoxMaps</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabelMapPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="ListBoxMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ComboBoxCountry1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LabelColor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelPlayerId.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPlayerId1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelLocation.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="GroupBoxPlayers.Text" xml:space="preserve">
+    <value>玩家列表</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxLocation1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxColor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="GroupBoxMapSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolTipRoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelMapPreview.Text" xml:space="preserve">
+    <value>Todo：地图预览</value>
+  </data>
+  <data name="&gt;&gt;LabelTeam.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="TextBoxPlayerId1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ComboBoxCountry1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelCountry.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelMapPreview.Parent" xml:space="preserve">
+    <value>GroupBoxMapSelection</value>
+  </data>
+  <data name="GroupBoxGameRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 162</value>
+  </data>
+  <data name="LabelLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxTeam1.Name" xml:space="preserve">
+    <value>ComboBoxTeam1</value>
+  </data>
+  <data name="&gt;&gt;LabelCountry.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ComboBoxColor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 51</value>
+  </data>
+  <data name="ComboBoxLocation1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 51</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerId.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelLocation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBoxPlayers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxPlayers.Name" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ToolTipRoom.Name" xml:space="preserve">
+    <value>ToolTipRoom</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="GroupBoxMapSelection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxPlayers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBoxTeam1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>游戏房间</value>
+  </data>
+  <data name="&gt;&gt;LabelLocation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ComboBoxCountry1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 51</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxLocation1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 24</value>
+  </data>
+  <data name="LabelLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 24</value>
+  </data>
+  <data name="&gt;&gt;LabelPlayerId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxGameRule.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListBoxMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ComboBoxTeam1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelMapPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxCountry1.Name" xml:space="preserve">
+    <value>ComboBoxCountry1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxTeam1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelColor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxCountry1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelCountry.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ComboBoxColor1.Name" xml:space="preserve">
+    <value>ComboBoxColor1</value>
+  </data>
+  <data name="TextBoxPlayerId1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="LabelTeam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMapSelection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxLocation1.Name" xml:space="preserve">
+    <value>ComboBoxLocation1</value>
+  </data>
+  <data name="&gt;&gt;LabelCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxGameRule.Text" xml:space="preserve">
+    <value>游戏规则</value>
+  </data>
+  <data name="LabelPlayerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGameRule.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1258, 664</value>
+  </data>
+  <data name="LabelPlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxColor1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="LabelMapPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="LabelPlayerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="ComboBoxLocation1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ListBoxMaps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelPlayerName.Name" xml:space="preserve">
+    <value>LabelPlayerName</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxColor1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxPlayers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelMapPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 387</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGameRule.Name" xml:space="preserve">
+    <value>GroupBoxGameRule</value>
+  </data>
+  <data name="LabelMapPreview.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ComboBoxColor1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxCountry1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ListBoxMaps.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListBoxMaps.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GameRoom</value>
+  </data>
+  <data name="LabelCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxMapSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="ComboBoxTeam1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 51</value>
+  </data>
+  <data name="ComboBoxLocation1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelCountry.Name" xml:space="preserve">
+    <value>LabelCountry</value>
+  </data>
+  <data name="&gt;&gt;LabelMapPreview.Name" xml:space="preserve">
+    <value>LabelMapPreview</value>
+  </data>
+  <data name="&gt;&gt;LabelColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GroupBoxPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxPlayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelLocation.Name" xml:space="preserve">
+    <value>LabelLocation</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPlayerId1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxTeam1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LabelColor.Name" xml:space="preserve">
+    <value>LabelColor</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxTeam1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxMapSelection.Text" xml:space="preserve">
+    <value>地图设置</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="&gt;&gt;LabelColor.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="GroupBoxGameRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 399</value>
+  </data>
+  <data name="&gt;&gt;LabelColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelPlayerId.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBoxColor1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBoxPlayerId1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelMapPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBoxMapSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 650</value>
+  </data>
+  <data name="GroupBoxPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 12</value>
+  </data>
+  <data name="LabelMapPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBoxPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 381</value>
+  </data>
+  <data name="LabelPlayerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPlayerId1.Name" xml:space="preserve">
+    <value>TextBoxPlayerId1</value>
+  </data>
+  <data name="&gt;&gt;LabelLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPlayerId1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGameRule.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBoxGameRule.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 24</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxLocation1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 24</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMapSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMapSelection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelPlayerName.Text" xml:space="preserve">
+    <value>玩家ID</value>
+  </data>
+  <data name="ListBoxMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 340</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMapSelection.Name" xml:space="preserve">
+    <value>GroupBoxMapSelection</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxCountry1.Parent" xml:space="preserve">
+    <value>GroupBoxPlayers</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGameRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListBoxMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LabelPlayerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="&gt;&gt;LabelTeam.Name" xml:space="preserve">
+    <value>LabelTeam</value>
+  </data>
+  <data name="LabelPlayerName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="ToolTipRoom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>zh-Hans-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
