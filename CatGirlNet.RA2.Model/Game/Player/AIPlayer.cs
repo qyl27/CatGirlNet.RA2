@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using CatGirlNet.RA2.Core.Model.Enums;
+using CatGirlNet.RA2.Model.Game.Enums;
 
-namespace CatGirlNet.RA2.Core.Model;
+namespace CatGirlNet.RA2.Model.Game.Player;
 
 public class AIPlayer : Player
 {

@@ -1,0 +1,6 @@
+@CatGirlNet.RA2.Server_HostAddress = http://localhost:5227
+
+GET {{CatGirlNet.RA2.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

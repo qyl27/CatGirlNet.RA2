@@ -1,7 +1,7 @@
 ﻿using System.Net;
-using CatGirlNet.RA2.Core.Model.Enums;
+using CatGirlNet.RA2.Model.Game.Enums;
 
-namespace CatGirlNet.RA2.Core.Model;
+namespace CatGirlNet.RA2.Model.Game;
 
 public class GameConfig
 {
@@ -10,7 +10,7 @@ public class GameConfig
 
     public int RandomSeed { get; set; } = new Random().Next(int.MinValue, int.MaxValue);
 
-    public IEnumerable<Player> Players { get; } = new List<Player>(8);
+    public IEnumerable<Player.Player> Players { get; } = new List<Player.Player>(8);
 
     #region Networking
     

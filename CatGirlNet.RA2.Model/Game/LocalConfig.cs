@@ -1,4 +1,4 @@
-﻿namespace CatGirlNet.RA2.Core.Model;
+﻿namespace CatGirlNet.RA2.Model.Game;
 
 public class LocalConfig
 {

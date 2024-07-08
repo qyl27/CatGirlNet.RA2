@@ -2,7 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client", "CatGirlNet.RA2.Client\CatGirlNet.RA2.Client.csproj", "{5FDF8B14-CA02-44AD-9953-ED9EBCB5FDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Core", "CatGirlNet.RA2.Core\CatGirlNet.RA2.Core.csproj", "{EC4669B5-46B6-4ECE-8763-0C4C83485A37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Model", "CatGirlNet.RA2.Model\CatGirlNet.RA2.Model.csproj", "{EC4669B5-46B6-4ECE-8763-0C4C83485A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Server", "CatGirlNet.RA2.Server\CatGirlNet.RA2.Server.csproj", "{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client.Core", "CatGirlNet.RA2.Client.Core\CatGirlNet.RA2.Client.Core.csproj", "{20FB4EB6-4606-4452-AC41-DB81243EA5F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
