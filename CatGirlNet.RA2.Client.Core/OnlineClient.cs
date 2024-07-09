@@ -11,10 +11,10 @@ public class OnlineClient
     
     private HubConnection Connection { get; }
     
-    public OnlineClient(string server)
+    public OnlineClient(string url)
     {
         Connection = new HubConnectionBuilder()
-            .WithUrl(server)
+            .WithUrl(url)
             .WithStatefulReconnect()
             .WithAutomaticReconnect()
             .Build();

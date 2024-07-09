@@ -4,29 +4,24 @@ using CatGirlNet.RA2.Model.Protocol.Common;
 
 namespace CatGirlNet.RA2.Client.Core;
 
-public class GameReceiver : IDisposable
+public class GameRelay : IDisposable
 {
     public const int SioUdpConnReset = -1744830452; // SIO_UDP_CONNRESET
-    public static readonly IPEndPoint RemoteEndPoint = new(IPAddress.Any, 0);
     
     private OnlineClient OnlineClient { get; }
     private UdpClient UdpClient { get; }
-    private HashSet<IPEndPoint> EndPoints { get; } = new();
     
-    public GameReceiver(OnlineClient onlineClient, IPEndPoint endPoint)
+    public GameRelay(OnlineClient onlineClient, IPEndPoint relayEndPoint, IPEndPoint localGame)
     {
         OnlineClient = onlineClient;
-        UdpClient = new UdpClient(endPoint);
+        UdpClient = new UdpClient(relayEndPoint);
         
         UdpClient.Client.SendTimeout = 5000;
         UdpClient.Client.ReceiveTimeout = 5000;
 
         OnlineClient.OnRelay += data =>
         {
-            foreach (var ep in EndPoints)
-            {
-                UdpClient.Client.SendTo(data.Data, ep);
-            }
+            UdpClient.Client.SendTo(data.Data, localGame);
         };
     }
 
@@ -46,19 +41,14 @@ public class GameReceiver : IDisposable
 
     public void OnReceive(IAsyncResult ar)
     {
-        var endPoint = RemoteEndPoint;
         var client = (ar.AsyncState as UdpClient)!;
+        var endPoint = (IPEndPoint) client.Client.LocalEndPoint!;
         var bytes = client.EndReceive(ar, ref endPoint);
 
-        if (bytes.Length >= 8)
+        if (bytes.Length >= 4)
         {
-            if (endPoint is not null)
-            {
-                EndPoints.Add(endPoint);
-            }
-            
-            var senderId = BitConverter.ToUInt32(bytes, 0);
-            var receiverId = BitConverter.ToUInt32(bytes, 4);
+            var senderId = IPAddress.NetworkToHostOrder(BitConverter.ToInt16(bytes, 0));
+            var receiverId = IPAddress.NetworkToHostOrder(BitConverter.ToInt16(bytes, 0));
             OnlineClient.Send(new RelayData
             {
                 SenderId = senderId, 

@@ -1,4 +1,4 @@
-﻿using CatGirlNet.RA2.Model.Game.Player;
+﻿using CatGirlNet.RA2.Model.Platform;
 
 namespace CatGirlNet.RA2.Model.Protocol.Common;
 

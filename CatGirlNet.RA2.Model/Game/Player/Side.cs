@@ -3,7 +3,7 @@ using CatGirlNet.RA2.Model.Game.Enums;
 
 namespace CatGirlNet.RA2.Model.Game.Player;
 
-public class Player
+public class Side
 {
     [Required]
     [MaxLength(60)]

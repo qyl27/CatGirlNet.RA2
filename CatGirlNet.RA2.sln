@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Server", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client.Core", "CatGirlNet.RA2.Client.Core\CatGirlNet.RA2.Client.Core.csproj", "{20FB4EB6-4606-4452-AC41-DB81243EA5F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client.Console", "CatGirlNet.RA2.Client.Console\CatGirlNet.RA2.Client.Console.csproj", "{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20FB4EB6-4606-4452-AC41-DB81243EA5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
