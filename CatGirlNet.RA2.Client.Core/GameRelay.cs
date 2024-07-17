@@ -47,8 +47,9 @@ public class GameRelay : IDisposable
 
         if (bytes.Length >= 4)
         {
-            var senderId = IPAddress.NetworkToHostOrder(BitConverter.ToInt16(bytes, 0));
-            var receiverId = IPAddress.NetworkToHostOrder(BitConverter.ToInt16(bytes, 0));
+            // qyl27: CnCNet spawner use the port as id.
+            var senderId = IPAddress.NetworkToHostOrder(BitConverter.ToUInt16(bytes, 0));
+            var receiverId = IPAddress.NetworkToHostOrder(BitConverter.ToUInt16(bytes, 2));
             OnlineClient.Send(new RelayData
             {
                 SenderId = senderId, 
