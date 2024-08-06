@@ -12,4 +12,8 @@
       <ProjectReference Include="..\CatGirlNet.RA2.Model\CatGirlNet.RA2.Model.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Terminal.Gui" Version="1.17.1" />
+    </ItemGroup>
+
 </Project>

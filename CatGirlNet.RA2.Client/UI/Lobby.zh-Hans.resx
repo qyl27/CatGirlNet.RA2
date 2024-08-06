@@ -118,138 +118,150 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="listBoxRooms.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 54</value>
+  <data name="listBoxRooms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 340</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 24</value>
+  <data name="groupBoxRooms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 380</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="groupBoxRooms.Text" xml:space="preserve">
+    <value>游戏房间</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>label1</value>
+  <data name="groupBoxChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 640</value>
   </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="groupBoxChat.Text" xml:space="preserve">
+    <value>聊天信息</value>
   </data>
-  <data name="ComboBoxLocation1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ComboBoxLocation1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>630, 51</value>
-  </data>
-  <data name="ComboBoxLocation1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 32</value>
-  </data>
-  <data name="LabelLocation.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelChat.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="labelChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="labelChat.Text" xml:space="preserve">
+    <value>发消息</value>
+  </data>
+  <data name="buttonChatSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="buttonChatSend.Text" xml:space="preserve">
+    <value>发送</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LabelLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="textBoxChat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
   </data>
-  <data name="LabelLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 24</value>
+  <data name="textBoxChat.MaxLength" type="System.Int32, mscorlib">
+    <value>300</value>
   </data>
-  <data name="LabelLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="LabelLocation.Text" xml:space="preserve">
-    <value>位置</value>
-  </data>
-  <data name="ComboBoxTeam1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ComboBoxTeam1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 51</value>
-  </data>
-  <data name="ComboBoxTeam1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 32</value>
-  </data>
-  <data name="LabelTeam.AutoSize" type="System.Boolean, mscorlib">
+  <data name="textBoxChat.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LabelTeam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="textBoxChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 75</value>
   </data>
-  <data name="LabelTeam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>546, 24</value>
+  <data name="listBoxChat.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
-  <data name="LabelTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="LabelTeam.Text" xml:space="preserve">
-    <value>组队</value>
-  </data>
-  <data name="ComboBoxColor1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ComboBoxColor1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>396, 51</value>
-  </data>
-  <data name="ComboBoxColor1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 32</value>
-  </data>
-  <data name="LabelColor.AutoSize" type="System.Boolean, mscorlib">
+  <data name="listBoxChat.ScrollAlwaysVisible" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LabelColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="listBoxChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 460</value>
   </data>
-  <data name="LabelColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 24</value>
+  <data name="contextMenuStripChatMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 64</value>
   </data>
-  <data name="LabelColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
+  <data name="toolStripMenuItemCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 30</value>
   </data>
-  <data name="LabelColor.Text" xml:space="preserve">
-    <value>颜色</value>
+  <data name="toolStripMenuItemCopy.Text" xml:space="preserve">
+    <value>复制</value>
   </data>
-  <data name="ComboBoxCountry1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="toolStripMenuItemClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 30</value>
   </data>
-  <data name="ComboBoxCountry1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 51</value>
+  <data name="toolStripMenuItemClear.Text" xml:space="preserve">
+    <value>清空</value>
   </data>
-  <data name="ComboBoxCountry1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 32</value>
+  <data name="groupBoxSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 185</value>
   </data>
-  <data name="LabelCountry.AutoSize" type="System.Boolean, mscorlib">
+  <data name="groupBoxSettings.Text" xml:space="preserve">
+    <value>偏好设置</value>
+  </data>
+  <data name="labelPlayerName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LabelCountry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 24</value>
+  <data name="labelPlayerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
   </data>
-  <data name="LabelCountry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
+  <data name="labelPlayerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 24</value>
   </data>
-  <data name="LabelCountry.Text" xml:space="preserve">
-    <value>国家</value>
+  <data name="labelPlayerName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="TextBoxPlayerId1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="labelPlayerName.Text" xml:space="preserve">
+    <value>玩家名：</value>
   </data>
-  <data name="TextBoxPlayerId1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 53</value>
+  <data name="groupBoxPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 254</value>
   </data>
-  <data name="TextBoxPlayerId1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 30</value>
+  <data name="groupBoxPlayers.Text" xml:space="preserve">
+    <value>在线玩家</value>
   </data>
-  <data name="LabelPlayerId.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="listBoxPlayers.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
-  <data name="LabelPlayerId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 26</value>
+  <data name="listBoxPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 220</value>
   </data>
-  <data name="LabelPlayerId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 24</value>
+  <data name="richTextBoxInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 374</value>
   </data>
-  <data name="LabelPlayerId.Text" xml:space="preserve">
-    <value>玩家ID</value>
+  <data name="groupBoxInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 203</value>
+  </data>
+  <data name="groupBoxInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 409</value>
+  </data>
+  <data name="groupBoxInformation.Text" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="contextMenuStripPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="contextMenuStripRoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="buttonQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="buttonQuit.Text" xml:space="preserve">
+    <value>退出平台</value>
+  </data>
+  <data name="textBoxPlayerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="textBoxPlayerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="textBoxPlayerName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>144, 144</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1258, 664</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>大厅</value>
   </data>
 </root>
