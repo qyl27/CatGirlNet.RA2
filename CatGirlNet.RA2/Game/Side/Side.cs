@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using CatGirlNet.RA2.Game.Enums;
-using CatGirlNet.RA2.Model.Game.Enums;
 
-namespace CatGirlNet.RA2.Game.Player;
+namespace CatGirlNet.RA2.Game.Side;
 
-public class Side
+public abstract class Side
 {
     [Required]
     [MaxLength(60)]

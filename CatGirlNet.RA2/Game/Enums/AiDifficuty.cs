@@ -1,6 +1,6 @@
 ﻿namespace CatGirlNet.RA2.Game.Enums;
 
-public enum AIDifficuty
+public enum AiDifficuty
 {
     Easy = 0,
     Normal = 1,

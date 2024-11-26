@@ -1,6 +1,5 @@
 ﻿using System.Net;
 using CatGirlNet.RA2.Game.Enums;
-using CatGirlNet.RA2.Model.Game.Enums;
 using IniParser.Model;
 
 namespace CatGirlNet.RA2.Game.Config;
@@ -13,21 +12,21 @@ public class NetworkConfig : IConfig
     /// <summary>
     /// Default protocol is unavailable now.
     /// </summary>
-    public NetProtocol Protocol { get; set; } = NetProtocol.Dynamic;
+    public NetProtocol Protocol { get; } = NetProtocol.Dynamic;
 
     public int PreCalcMaxAhead { get; set; } = 0;       // Dynamic
     public int MaxLatencyLevel { get; set; } = 255;     // Dynamic
 
-    public int FrameSendRate { get; set; } = 4;         // Default 
-    public int MaxAhead { get; set; } = -1;             // Default 
+    public int FrameSendRate { get; } = 4;          // Default 
+    public int MaxAhead { get; } = -1;              // Default 
 
     public int ReconnectTimeout { get; set; } = 2400;
     public int ConnTimeout { get; set; } = 3600;
 
     public ushort LocalPort { get; set; } = 50010;
     
-    public IPAddress TunnelIp { get; set; } = IPAddress.Loopback;
-    public ushort TunnelPort { get; set; } = 50009;
+    public IPAddress TunnelIp { get; set; } = Constants.Loopback;
+    public ushort TunnelPort { get; set; } = Constants.LocalRelayPort;
 
     public void Write(IniData data)
     {

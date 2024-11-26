@@ -1,9 +1,8 @@
-﻿using CatGirlNet.RA2.Game.Player;
-using IniParser.Model;
+﻿using IniParser.Model;
 
 namespace CatGirlNet.RA2.Game.Config;
 
-public class RoomConfig : IConfig
+public class LaunchConfig : IConfig
 {
     /// <summary>
     /// Map name shows in players list.
@@ -63,7 +62,7 @@ public class RoomConfig : IConfig
     /// <summary>
     /// Will parsed to config.
     /// </summary>
-    public IEnumerable<Side> Sides { get; } = new List<Side>(8);
+    public IEnumerable<Side.Side> Sides { get; } = new List<Side.Side>(8);
 
     #region Unavailable
 

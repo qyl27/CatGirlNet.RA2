@@ -85,7 +85,7 @@ public class GameModeConfig : IConfig
     public bool FogOfWar { get; set; } = false;
 
     /// <summary>
-    /// If players will defeated when its all buildings are destroyed.
+    /// If player will be defeated when it's all buildings are destroyed.
     /// </summary>
     public bool FastGame { get; set; } = true;
 
@@ -95,7 +95,7 @@ public class GameModeConfig : IConfig
     public bool RedeployMCV { get; set; } = true;
 
     /// <summary>
-    /// Should crates spawns or not.
+    /// Should crate spawns or not.
     /// </summary>
     public bool Crates { get; set; } = false;
     
@@ -115,13 +115,13 @@ public class GameModeConfig : IConfig
     public bool BuildOffAlly { get; set; } = true;
 
     /// <summary>
-    /// If enable, engineers can't capture building, but give it some damage.
+    /// If enabled, engineers can't capture building, but give it some damage.
     /// (TS engine function. Like RA1.)
     /// </summary>
     public bool MultiEngineer { get; set; } = false;
 
     /// <summary>
-    /// If enable, bridge can't be destroyed.
+    /// If enabled, bridge can't be destroyed.
     /// </summary>
     public bool BridgeDestroy { get; set; } = true;
 

@@ -1,12 +1,16 @@
 using CatGirlNet.RA2.Server.Hubs;
+using CatGirlNet.RA2.Server.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSignalR()
     .AddMessagePackProtocol();
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer()
+    .AddSwaggerGen();
+
+builder.Services.AddSingleton<PlayerService>();
+builder.Services.AddSingleton<RoomService>();
 
 var app = builder.Build();
 
