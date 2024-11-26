@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CatGirlNet.RA2.Model\CatGirlNet.RA2.Model.csproj" />
+      <ProjectReference Include="..\CatGirlNet.RA2\CatGirlNet.RA2.csproj" />
     </ItemGroup>
 
 </Project>

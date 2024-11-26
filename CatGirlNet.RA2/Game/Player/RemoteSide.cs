@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Net;
 
-namespace CatGirlNet.RA2.Model.Game.Player;
+namespace CatGirlNet.RA2.Game.Player;
 
 public class RemoteSide : Side
 {

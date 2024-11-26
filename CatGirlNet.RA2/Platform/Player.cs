@@ -1,4 +1,4 @@
-﻿namespace CatGirlNet.RA2.Model.Platform;
+﻿namespace CatGirlNet.RA2.Platform;
 
 public class Player
 {

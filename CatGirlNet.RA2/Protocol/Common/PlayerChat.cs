@@ -1,6 +1,6 @@
-﻿using CatGirlNet.RA2.Model.Platform;
+﻿using CatGirlNet.RA2.Platform;
 
-namespace CatGirlNet.RA2.Model.Protocol.Common;
+namespace CatGirlNet.RA2.Protocol.Common;
 
 public class PlayerChat
 {

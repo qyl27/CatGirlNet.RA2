@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using CatGirlNet.RA2.Game.Enums;
 using CatGirlNet.RA2.Model.Game.Enums;
 
-namespace CatGirlNet.RA2.Model.Game.Player;
+namespace CatGirlNet.RA2.Game.Player;
 
 public class Side
 {

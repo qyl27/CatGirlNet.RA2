@@ -2,13 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client", "CatGirlNet.RA2.Client\CatGirlNet.RA2.Client.csproj", "{5FDF8B14-CA02-44AD-9953-ED9EBCB5FDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Model", "CatGirlNet.RA2.Model\CatGirlNet.RA2.Model.csproj", "{EC4669B5-46B6-4ECE-8763-0C4C83485A37}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Server", "CatGirlNet.RA2.Server\CatGirlNet.RA2.Server.csproj", "{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client.Core", "CatGirlNet.RA2.Client.Core\CatGirlNet.RA2.Client.Core.csproj", "{20FB4EB6-4606-4452-AC41-DB81243EA5F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2.Client.Console", "CatGirlNet.RA2.Client.Console\CatGirlNet.RA2.Client.Console.csproj", "{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGirlNet.RA2", "CatGirlNet.RA2\CatGirlNet.RA2.csproj", "{BD5C5DE1-40D6-4372-91FF-4E0280D03E1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +20,6 @@ Global
 		{5FDF8B14-CA02-44AD-9953-ED9EBCB5FDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FDF8B14-CA02-44AD-9953-ED9EBCB5FDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FDF8B14-CA02-44AD-9953-ED9EBCB5FDA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC4669B5-46B6-4ECE-8763-0C4C83485A37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA255B3-81A5-4CA1-9FFA-539F704EFF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +32,9 @@ Global
 		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5525E8-E8F6-4C31-AC6D-AA2CF7968F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5C5DE1-40D6-4372-91FF-4E0280D03E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5C5DE1-40D6-4372-91FF-4E0280D03E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5C5DE1-40D6-4372-91FF-4E0280D03E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5C5DE1-40D6-4372-91FF-4E0280D03E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-﻿namespace CatGirlNet.RA2.Model.Game.Enums;
+﻿namespace CatGirlNet.RA2.Game.Enums;
 
 public enum NetProtocol
 {

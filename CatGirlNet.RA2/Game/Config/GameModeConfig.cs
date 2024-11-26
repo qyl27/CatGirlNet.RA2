@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using IniParser.Model;
 
-namespace CatGirlNet.RA2.Model.Game.Config;
+namespace CatGirlNet.RA2.Game.Config;
 
 /// <summary>
 /// SPAWN.INI

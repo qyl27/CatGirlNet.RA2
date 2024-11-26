@@ -1,6 +1,6 @@
 ﻿using IniParser.Model;
 
-namespace CatGirlNet.RA2.Model.Game.Config;
+namespace CatGirlNet.RA2.Game.Config;
 
 public interface IConfig
 {

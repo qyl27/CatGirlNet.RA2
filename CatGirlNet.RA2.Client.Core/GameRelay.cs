@@ -1,6 +1,6 @@
 ﻿using System.Net;
 using System.Net.Sockets;
-using CatGirlNet.RA2.Model.Protocol.Common;
+using CatGirlNet.RA2.Protocol.Common;
 
 namespace CatGirlNet.RA2.Client.Core;
 

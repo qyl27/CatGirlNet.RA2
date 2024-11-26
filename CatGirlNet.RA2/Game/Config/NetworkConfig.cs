@@ -1,8 +1,9 @@
 ﻿using System.Net;
+using CatGirlNet.RA2.Game.Enums;
 using CatGirlNet.RA2.Model.Game.Enums;
 using IniParser.Model;
 
-namespace CatGirlNet.RA2.Model.Game.Config;
+namespace CatGirlNet.RA2.Game.Config;
 
 /// <summary>
 /// SPAWN.INI

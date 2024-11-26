@@ -1,7 +1,7 @@
-﻿using CatGirlNet.RA2.Model.Game.Player;
+﻿using CatGirlNet.RA2.Game.Player;
 using IniParser.Model;
 
-namespace CatGirlNet.RA2.Model.Game.Config;
+namespace CatGirlNet.RA2.Game.Config;
 
 public class RoomConfig : IConfig
 {
